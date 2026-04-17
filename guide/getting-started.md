@@ -2,67 +2,70 @@
 layout: page
 ---
 
-# 导航指南
+# 目录导航
+
 欢迎来到我的学习路线图。点击下方板块进入详细内容：
 
-::: info 导航板块
-<div class="features">
-  <div class="feature">
-    <h2>学习笔记</h2>
-    <p>数学基础 & 核心算法 & 前沿技术</p>
-    <a href="/notes/index">点击进入 →</a>
-  </div>
+<div class="items-grid">
+  <a class="nav-card" href="/notes/index">
+    <div class="nav-icon">📒</div>
+    <div class="nav-title">学习笔记</div>
+    <div class="nav-desc">数学基础 & 核心算法 & 前沿技术</div>
+  </a>
 
-  <div class="feature">
-    <h2>模型实操</h2>
-    <p>记录大模型微调、提示工程的心得</p>
-    <a href="/practice/index">点击进入 →</a>
-  </div>
+  <a class="nav-card" href="/practice/index">
+    <div class="nav-icon">🛠️</div>
+    <div class="nav-title">模型实操</div>
+    <div class="nav-desc">记录大模型微调、提示工程的心得</div>
+  </a>
 
-  <div class="feature">
-    <h2>项目经验</h2>
-    <p>一些 KsT 的项目经验（脱敏）</p>
-    <a href="/projects/index">点击进入 →</a>
-  </div>
+  <a class="nav-card" href="/projects/index">
+    <div class="nav-icon">💼</div>
+    <div class="nav-title">项目经验</div>
+    <div class="nav-desc">一些 KsT 的项目经验（脱敏）</div>
+  </a>
 
-  <div class="feature">
-    <h2>行业趋势</h2>
-    <p>不作新闻分享，仅个人有感记录（手打）</p>
-    <a href="/trends/index">点击进入 →</a>
-  </div>
+  <a class="nav-card" href="/trends/index">
+    <div class="nav-icon">📈</div>
+    <div class="nav-title">行业趋势</div>
+    <div class="nav-desc">个人有感记录（手打）</div>
+  </a>
 </div>
-:::
 
-<style>
-.features {
+<style scoped>
+.items-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
   margin-top: 24px;
 }
-.feature {
+.nav-card {
+  text-decoration: none !important;
   border: 1px solid var(--vp-c-bg-soft);
   border-radius: 12px;
   padding: 24px;
   background-color: var(--vp-c-bg-soft);
-  transition: border-color 0.25s;
+  transition: all 0.3s ease;
+  display: block;
 }
-.feature:hover {
-  border-color: var(--vp-c-brand);
+.nav-card:hover {
+  border-color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-bg-alt);
+  transform: translateY(-5px);
 }
-.feature h2 {
-  margin: 0 0 8px 0 !important;
-  border: none;
-  font-size: 1.2rem;
+.nav-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
 }
-.feature p {
-  font-size: 0.9rem;
+.nav-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--vp-c-text-1);
+  margin-bottom: 8px;
+}
+.nav-desc {
+  font-size: 14px;
   color: var(--vp-c-text-2);
-  margin-bottom: 16px;
-}
-.feature a {
-  font-weight: 500;
-  color: var(--vp-c-brand);
-  text-decoration: none;
+  line-height: 1.5;
 }
 </style>
