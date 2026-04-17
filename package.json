@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  {
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev LLM-Study-Notes_by-1ndigoRiVow",
-    "docs:build": "vitepress build LLM-Study-Notes_by-1ndigoRiVow",
-    "docs:preview": "vitepress preview LLM-Study-Notes_by-1ndigoRiVow"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {
-    "vitepress": "^1.6.4"
   }
 }
