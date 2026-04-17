@@ -1,20 +1,14 @@
 {
-  "name": "llm-study-notes_by-1ndigorivow",
+  "name": "llm-study-notes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  {
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0"
-  }
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+    "vitepress": "^1.0.0",
+    "vue": "^3.0.0"
   }
 }
