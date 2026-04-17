@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "LLM Study Notes"
-  text: "绝望的econ本科生自学中……1ndigoRiVow 的算法工程师进阶之路"
-  tagline: "Python | PyTorch | 大模型算法工程师助理 学习笔记"
+  text: "绝望的econ本科生自学中"
+  tagline: "Python | Maths | Junior LLM Algorithm Engineer 学习笔记"
   actions:
     - theme: brand
       text: 开始阅读
