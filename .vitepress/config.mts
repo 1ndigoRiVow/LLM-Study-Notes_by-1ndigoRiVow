@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/LLM-Study-Notes_by-1ndigoRiVow/', 
   title: "LLM-Study-Notes_by-1ndigoRiVow",
   description: "Yielding to strike back.",
   themeConfig: {
