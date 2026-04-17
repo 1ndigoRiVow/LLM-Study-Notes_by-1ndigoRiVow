@@ -42,9 +42,9 @@ jobs:
 
       - name: Build with VitePress
         run: |
-          npm install
+          chmod -R +x node_modules/.bin
           npx vitepress build
-
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
