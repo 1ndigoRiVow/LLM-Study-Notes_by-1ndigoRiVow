@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "LLM Study Notes"
-  text: "绝望的econ本科生自学中"
+  text: "绝望econ本科生自学中"
   tagline: "Python | Maths | Junior LLM Algorithm Engineer 学习笔记"
   actions:
     - theme: brand
