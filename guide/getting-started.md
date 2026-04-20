@@ -13,25 +13,25 @@ layout: page
 <div style="margin-top: 60px;"></div>
 
 <div class="items-grid">
-  <a class="nav-card" href="/notes/index">
+  <a class="nav-card" href="/guide/learning/p1">
     <div class="nav-icon">📒</div>
     <div class="nav-title">学习笔记</div>
     <div class="nav-desc">数学基础 & 核心算法 & 前沿技术</div>
   </a>
 
-  <a class="nav-card" href="/practice/index">
+  <a class="nav-card" href="/guide/llmexp/p1">
     <div class="nav-icon">🛠️</div>
     <div class="nav-title">模型实操</div>
     <div class="nav-desc">记录大模型微调、提示工程的心得</div>
   </a>
 
-  <a class="nav-card" href="/projects/index">
+  <a class="nav-card" href="/guide/projexp/p1">
     <div class="nav-icon">💼</div>
     <div class="nav-title">项目经验</div>
     <div class="nav-desc">一些 KsT 的项目经验（脱敏）</div>
   </a>
 
-  <a class="nav-card" href="/trends/index">
+  <a class="nav-card" href="/guide/industry/p1">
     <div class="nav-icon">📈</div>
     <div class="nav-title">行业趋势</div>
     <div class="nav-desc">个人有感记录（手打）</div>
