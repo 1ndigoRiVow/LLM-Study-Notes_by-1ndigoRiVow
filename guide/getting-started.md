@@ -8,33 +8,39 @@ layout: page
 
 <div style="margin-top: 60px;"></div>
 
-欢迎来到我的学习路线图。点击下方板块进入详细内容：
+欢迎来到我的学习路线图。点击下方板块进入详细内容的第一章节：
 
 <div style="margin-top: 60px;"></div>
 
 <div class="items-grid">
-  <a class="nav-card" href="/guide/learning/p1">
+  <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/learning/p1">
     <div class="nav-icon">📒</div>
     <div class="nav-title">学习笔记</div>
     <div class="nav-desc">数学基础 & 核心算法 & 前沿技术</div>
   </a>
 
-  <a class="nav-card" href="/guide/llmexp/p1">
+  <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/llmexp/p1">
     <div class="nav-icon">🛠️</div>
     <div class="nav-title">模型实操</div>
     <div class="nav-desc">记录大模型微调、提示工程的心得</div>
   </a>
 
-  <a class="nav-card" href="/guide/projexp/p1">
+  <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/projexp/p1">
     <div class="nav-icon">💼</div>
     <div class="nav-title">项目经验</div>
     <div class="nav-desc">一些 KsT 的项目经验（脱敏）</div>
   </a>
 
-  <a class="nav-card" href="/guide/industry/p1">
+  <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/industry/p1">
     <div class="nav-icon">📈</div>
     <div class="nav-title">行业趋势</div>
     <div class="nav-desc">个人有感记录（手打）</div>
+  </a>
+
+  <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/econ/p1">
+    <div class="nav-icon">📈</div>
+    <div class="nav-title">经济学研究</div>
+    <div class="nav-desc">经济学学术要点记录</div>
   </a>
 </div>
 
