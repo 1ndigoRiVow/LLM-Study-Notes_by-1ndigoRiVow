@@ -38,7 +38,7 @@ layout: page
   </a>
 
   <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/econ/p1">
-    <div class="nav-icon">📈</div>
+    <div class="nav-icon">🪙</div>
     <div class="nav-title">经济学研究</div>
     <div class="nav-desc">经济学学术要点记录</div>
   </a>
