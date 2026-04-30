@@ -8,7 +8,7 @@ layout: page
 
 <div style="margin-top: 60px;"></div>
 
-欢迎来到我的学习路线图。点击下方板块进入详细内容的第一章节：
+这是一个傻逼的导航页：
 
 <div style="margin-top: 60px;"></div>
 
