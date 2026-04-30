@@ -1,7 +1,7 @@
 ---
 title: Self-Attention 自注意力机制
-description: 包含 Q/K/V、核心公式、Mask、Multi-Head Attention，以及 NumPy 与 PyTorch 实现。
 outline: [2, 3]
+next: false
 ---
 
 # Self-Attention 机制：原理与从零实现
@@ -581,3 +581,25 @@ softmax 得到注意力权重
 ```
 
 只要理解了 `Q`、`K`、`V`、`scores` 和 `attention_weights` 之间的 shape 变化，就能比较顺利地读懂 Transformer 中的 Attention 实现。
+
+----
+
+<div style="margin-top: 50px; display: flex; justify-content: flex-end;">
+<a href="/LLM-Study-Notes_by-1ndigoRiVow/guide/learning/??" style="
+background-color: var(--vp-c-brand-1);
+color: white;
+padding: 12px 24px;
+border-radius: 20px;
+text-decoration: none;
+font-weight: 600;
+display: flex;
+align-items: center;
+gap: 8px;
+transition: transform 0.2s;
+" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform='translateX(0)'">
+下一章：
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+</a>
+</div>
+
+```

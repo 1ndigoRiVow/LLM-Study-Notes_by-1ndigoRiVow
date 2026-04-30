@@ -19,12 +19,29 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '开始阅读',
+        text: '学习笔记',
         items: [
-          { text: '学习笔记', link: '/guide/learning/p1' },
-          { text: '模型实操', link: '/guide/llmexp/' },
-          { text: '项目经验', link: '/guide/projexp/' },
-          { text: '行业趋势', link: '/guide/industry/' }
+          { text: '矩阵分解', link: '/guide/learning/p1' },
+          { text: 'Token', link: '/guide/learning/token' },
+          { text: 'Self-Attention', link: '/guide/learning/attention' }
+        ]
+      },
+      {
+        text: '模型实操',
+        items: [
+          { text: '总览', link: '/guide/llmexp/' }
+        ]
+      },
+      {
+        text: '项目经验',
+        items: [
+          { text: '总览', link: '/guide/projexp/' }
+        ]
+      },
+      {
+        text: '行业趋势',
+        items: [
+          { text: '总览', link: '/guide/industry/' }
         ]
       }
     ],
