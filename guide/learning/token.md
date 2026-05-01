@@ -162,7 +162,7 @@ get / User / Profile / By / Id
 
 ## 5. 和 self-attention 的关系
 
-前面说 self-attention 时提到：
+后面说 self-attention 时会提到：
 
 ```text
 x1, x2, x3, ..., xn
