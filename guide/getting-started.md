@@ -2,15 +2,9 @@
 layout: page
 ---
 
-<div style="margin-top: 60px;"></div>
-
 # 目录导航
 
-<div style="margin-top: 60px;"></div>
-
 这是一个傻逼的导航页：
-
-<div style="margin-top: 60px;"></div>
 
 <div class="items-grid">
   <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/learning/p1">
@@ -29,12 +23,6 @@ layout: page
     <div class="nav-icon">💼</div>
     <div class="nav-title">项目经验</div>
     <div class="nav-desc">一些 KsT 的项目经验（脱敏）</div>
-  </a>
-
-  <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/industry/p1">
-    <div class="nav-icon">📈</div>
-    <div class="nav-title">行业趋势</div>
-    <div class="nav-desc">个人有感记录（手打）</div>
   </a>
 
   <a class="nav-card" href="/LLM-Study-Notes_by-1ndigoRiVow/guide/econ/p1">

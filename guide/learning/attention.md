@@ -94,10 +94,10 @@ $$
 
 可以拆成四步理解：
 
-1. `QK^T`：每个 token 的 Query 和所有 token 的 Key 做点积，得到注意力分数。
-2. `/ sqrt(d_k)`：对分数进行缩放，避免点积结果过大导致 softmax 过于尖锐。
-3. `softmax(...)`：把分数转换成概率权重。
-4. `softmax(...) V`：用权重对 Value 做加权求和，得到新的 token 表示。
+1. $QK^T$：每个 token 的 Query 和所有 token 的 Key 做点积，得到注意力分数。
+2. $/ sqrt(d_k)$：对分数进行缩放，避免点积结果过大导致 softmax 过于尖锐。
+3. $softmax(...)$：把分数转换成概率权重。
+4. $softmax(...) V$：用权重对 Value 做加权求和，得到新的 token 表示。
 
 ::: tip 为什么要除以 $\sqrt{d_k}$？
 当向量维度较大时，点积结果的数值容易变大。过大的分数会让 softmax 输出过于接近 one-hot，导致梯度不稳定。因此需要用 $\sqrt{d_k}$ 进行缩放。

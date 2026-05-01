@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "LLM Study Notes"
-  text: "绝望econ本科生自学中"
+  text: "Econ本科生自学版"
   tagline: "Junior LLM Algorithm Engineer 学习笔记"
   actions:
     - theme: brand
@@ -21,8 +21,6 @@ features:
     details: 记录大模型微调、提示工程的心得
   - title: 项目经验
     details: 一些KsT的项目经验（脱敏）
-  - title: 行业趋势
-    details: 不作新闻分享，仅个人有感记录（手打）
   - title: 经济学研究
-    details: 毕业后的一些经济学学术要点记录
+    details: 毕业后的一些经济学学术记录
 ---

@@ -29,19 +29,21 @@ export default defineConfig({
       {
         text: '模型实操',
         items: [
-          { text: '总览', link: '/guide/llmexp/' }
+          { text: '🛠️（施工中）', link: '/guide/llmexp/' }
         ]
       },
       {
         text: '项目经验',
         items: [
-          { text: '总览', link: '/guide/projexp/' }
+          { text: '🛠️（施工中）', link: '/guide/projexp/' }
         ]
       },
       {
-        text: '行业趋势',
+        text: '经济学研究',
         items: [
-          { text: '总览', link: '/guide/industry/' }
+          { text: '总览', link: '/guide/econ/p1' },
+          { text: 'IV', link:'/guide/econ/iv' },
+          { text: 'GMM', link:'/guide/econ/gmm' }
         ]
       }
     ],
